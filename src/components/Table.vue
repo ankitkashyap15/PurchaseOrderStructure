@@ -55,31 +55,48 @@ export default {
     return {
       term: '',
       rawRows: [
-        [
-          "Manoj", "24", "Software Developer", "1997"
-        ],
-        [
-          "John", "26", "Lawyer", "1995"
-        ],
-        [
-          "Lily", "34", "Saleswoman", "1987"
-        ],
-        [
-          "Rachel", "34", "Saleswoman", "1987"
-        ],
-        [
-          "Ross", "34", "Barber", "1987"
-        ],
-        [
-          "Chandler", "30", "Salesman", "1991"
-        ]
+        // [
+        //   "000001", "45", "Home Depot", "New PO","0","Admin"," "," "," "
+        // ],
+        // [
+        //   "000002", "26", "Grainger", "New PO","12","Admin"," "," "," "
+        // ],
+        // [
+        //   "000004", "34", "Factory 3", "PO Issued","6","Admin"," "," "," "
+        // ],
+        // [
+        //   "000003", "34", "Home Depot", "PO Archived","9","Admin"," "," "," "
+        // ],
+        // [
+        //   "000006", "34", "Grainger", "PO Archived","0","Admin"," "," "," "
+        // ],
+        // [
+        //   "000005", "30", "Lowes", "New PO","0","Admin"," "," "," "
+        // ]
+      { "Purchase Order" : 1, "Title": "Tool Crib", "Supplier": "A", "Status": "000005","Grand Total": "123", "Originator": "Second Site","Ordered": "Second Site","Expected": "Second Site","Received": "Second Site"},
+       {"Purchase Order": 1, "Title": "Tool Crib", "Supplier": "A", "Status": "000005","Grand Total": "123", "Originator": "Second Site","Ordered": "Second Site","Expected": "Second Site","Received": "Second Site"},
+        {"Purchase Order": 1, "Title": "Tool Crib", "Supplier": "A", "Status": "000005","Grand Total": "123", "Originator": "Second Site","Ordered": "Second Site","Expected": "Second Site","Received": "Second Site"},
+         {"Purchase Order": 1, "Title": "Tool Crib", "Supplier": "A", "Status": "000005","Grand Total": "123", "Originator": "Second Site","Ordered": "Second Site","Expected": "Second Site","Received": "Second Site"},
+          {"Purchase Order": 1, "Title": "Tool Crib", "Supplier": "A", "Status": "000005","Grand Total": "123", "Originator": "Second Site","Ordered": "Second Site","Expected": "Second Site","Received": "Second Site"},
+           {"Purchase Order": 1, "Title": "Tool Crib", "Supplier": "A", "Status": "000005","Grand Total": "123", "Originator": "Second Site","Ordered": "Second Site","Expected": "Second Site","Received": "Second Site"},
+            {"Purchase Order": 1, "Title": "Tool Crib", "Supplier": "A", "Status": "000005","Grand Total": "123", "Originator": "Second Site","Ordered": "Second Site","Expected": "Second Site","Received": "Second Site"},
+             {"Purchase Order": 1, "Title": "Tool Crib", "Supplier": "A", "Status": "000005","Grand Total": "123", "Originator": "Second Site","Ordered": "Second Site","Expected": "Second Site","Received": "Second Site"},
+              {"Purchase Order": 1, "Title": "Tool Crib", "Supplier": "A", "Status": "000005","Grand Total": "123", "Originator": "Second Site","Ordered": "Second Site","Expected": "Second Site","Received": "Second Site"},
+               {"Purchase Order": 1, "Title": "Tool Crib", "Supplier": "A", "Status": "000005","Grand Total": "123", "Originator": "Second Site","Ordered": "Second Site","Expected": "Second Site","Received": "Second Site"},
+                {"Purchase Order": 1, "Title": "Tool Crib", "Supplier": "A", "Status": "000005","Grand Total": "123", "Originator": "Second Site","Ordered": "Second Site","Expected": "Second Site","Received": "Second Site"},
+                 {"Purchase Order": 1, "Title": "Tool Crib", "Supplier": "A", "Status": "000005","Grand Total": "123", "Originator": "Second Site","Ordered": "Second Site","Expected": "Second Site","Received": "Second Site"},
       ],
       rows: [],
       columns: [
-        'Name',
-        'Age',
-        'Profession',
-        'Year of birth'
+        'Purchase Order',
+        'Title',
+        'Supplier',
+        'Status',
+        'Grand Total',
+        'Originator',
+        'Ordered',
+        'Expected',
+        'Received'
       ],
       sortIndex: null,
       sortDirection: null
